@@ -54,3 +54,23 @@ A summary of the t-test results from Lot 3:
 ![t-test on lot 3](https://github.com/sydney-chen95/MechaCar-Statistical-Analysis/blob/main/t-test%20on%20lot%203.png?raw=true)
 
 - From the summary above for Lot 3, the mean across this sample is 1496.14 and a p-value of 0.04. We reject the null hypothesis.
+
+## Study Design: MechaCar vs Competition
+A statistical study that can quantify how the MechaCar performs against its competition is selling price. In this study, we will look at how the cost of the mechaCar compares to its competitiors over the last 10 years.
+
+#### Metrics
+- selling price
+- engine type
+- safety rating
+- maintenance cost per year
+
+#### Hypothesis
+Null Hypothesis: MechaCar is priced fairly in accordance to its performance.
+Alternative Hypothesis: MechaCar is priced unfairly in accordance to its performance. 
+
+#### Statistcal Testing
+A multiple linear regression test will determine the correlation of all the variables to the selling price. This test can also help predict future costs of MechaCars. 
+
+#### Data
+Dependent variable: selling price
+independent variables: engine type, safety rating, maintenance cost per year.
