@@ -27,3 +27,30 @@ Lot Summary
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
    
    The Suspension_Coil dataset shows Lot1 with a variance of 0.9795 PSI and Lot2 with a variance of 7.4693 PSI. Both of the lots meet the design specification induvidually. However, Lot3 does not meet this requirement with a variance of 170.2861 PSI which exceeds the requirement of having less than 100 PSI. But altogether, the lots in total do meet the specification with a variance of 62.2935 PSI as shown in the summary dataframes above.
+
+## T-Tests on Suspension Coils
+In this step, a t-test is used to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+A summary of the t-test reults from all manufacturing lots:
+
+![t-test on all lots](https://github.com/sydney-chen95/MechaCar-Statistical-Analysis/blob/main/t-test%20on%20all%20lots.png?raw=true)
+
+- From the summary above, the mean across all manufacturing lots is 1498.78 with a p-value of 0.06. This is higher than the signficiance level of 0.05, therefore, the null hypothesis of the mean being 1500 is not rejected. 
+
+A summary of the t-test results from Lot 1:
+
+![t-test on lot 1](https://github.com/sydney-chen95/MechaCar-Statistical-Analysis/blob/main/t-test%20on%20lot%201.png?raw=true)
+
+- From the summary above for Lot 1, the mean across this sample is 1500 and a p-value of 1. We fail to reject the null hypothesis.
+
+A summary of the t-test results from Lot 2:
+
+![t-test on lot 2](https://github.com/sydney-chen95/MechaCar-Statistical-Analysis/blob/main/t-test%20on%20lot%202.png?raw=true)
+
+- From the summary above for Lot 2, the mean across this sample is 1500.2 and a p-value of 0.61. We fail to reject the null hypothesis.
+
+A summary of the t-test results from Lot 3:
+
+![t-test on lot 3](https://github.com/sydney-chen95/MechaCar-Statistical-Analysis/blob/main/t-test%20on%20lot%203.png?raw=true)
+
+- From the summary above for Lot 3, the mean across this sample is 1496.14 and a p-value of 0.04. We reject the null hypothesis.
