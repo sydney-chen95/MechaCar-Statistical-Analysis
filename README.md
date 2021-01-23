@@ -73,4 +73,5 @@ A multiple linear regression test will determine the correlation of all the vari
 
 #### Data
 Dependent variable: selling price
-independent variables: engine type, safety rating, maintenance cost per year.
+
+Independent variables: engine type, safety rating, maintenance cost per year.
